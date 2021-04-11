@@ -12,7 +12,7 @@ public class AntiQuick {
         //чтение файла и создание массива длины n
         Scanner sc = new Scanner(new File("src/AntiQuick/input.txt"));
         int n = sc.nextInt();
-        int[] mas = IntStream.range(0, n+1).toArray();
+        int[] mas = IntStream.range(1, n+1).toArray();
 
         //сам алгоритм
         for(int i = 0; i < n; i ++) {
